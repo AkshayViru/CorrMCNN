@@ -7,8 +7,8 @@ To make a novel step-based correlation multi-modal CNN(CorrMCNN) which reconstru
 
 # Dataset Used
 
-● MNIST handwritten digits dataset -60,000 images for training and 10,000 for testing.
-● Each image is split vertically into two halves so as to obtain an image of 28 x 14 = 392 features
+- MNIST handwritten digits dataset -60,000 images for training and 10,000 for testing.
+-  Each image is split vertically into two halves so as to obtain an image of 28 x 14 = 392 features
 
 # Technique used: Deep Autoencoder based Approach
 Multi-Modal Autoencoder is used which is two channeled AE that performs 2 types of reconstructions which provide the ability to adapt towards transfer learning tasks:
