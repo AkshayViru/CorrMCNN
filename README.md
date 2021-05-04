@@ -18,17 +18,12 @@ Multi-Modal Autoencoder is used which is two channeled AE that performs 2 types 
 
 # Implementation
 This research paper is an improvement over the *[Correlational Neural Networks](https://arxiv.org/pdf/1504.07225.pdf)* paper with the following additions:
-- Introduced convolution layer in the encoding phase and deconvolution layer in the decoding stage of the Correlation multi-modalCNN(CorrMCNN)
+- Introduced convolution layer in the encoding phase and deconvolution layer in the decoding stage of the Correlation multi-modal CNN(CorrMCNN)
 - Batch Normalization in the intermediate layers
 - Instead of using final hidden representations in the correlation loss, correlation is computed at each intermediate layer.
 
 # Architecture
 ![CorrMCNN Architecture](https://github.com/AkshayViru/CorrMCNN/blob/main/images/architecture.png)
-
-# Goals
-- Minimize the self-reconstruction error.
-- Minimize the cross-reconstruction error at each intermediate step.
-- Maximize the correlation between the hidden representation of both views at each encoding step.
 
 # Results
 ![CorrMCNN Architecture](https://github.com/AkshayViru/CorrMCNN/blob/main/images/results_1.JPG)
