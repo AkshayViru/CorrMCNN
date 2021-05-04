@@ -16,10 +16,12 @@ Multi-Modal Autoencoder is used which is two channeled AE that performs 2 types 
 - Cross-reconstruction where one view is reconstructed given the other.
 
 # Implementation
-This research paper is improvement over the [Common Representation Learning Using Deep Corrnet](http://deeplearn-ai.com/2017/05/24/common-representation-learning-using-deep-corrnet/) paper with the following improvements:
+This research paper is an improvement over the *[Correlational Neural Networks](https://arxiv.org/pdf/1504.07225.pdf)* paper with the following additions:
 - Introduced convolution layer in the encoding phase and deconvolution layer in the decoding stage of the Correlation multi-modalCNN(CorrMCNN)
 - Batch Normalization in the intermediate layers
 - Instead of using final hidden representations in the correlation loss, correlation is computed at each intermediate layer.
+
+# Architecture
 
 # Goals
 - Minimize the self-reconstruction error.
