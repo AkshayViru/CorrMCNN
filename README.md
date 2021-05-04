@@ -30,4 +30,7 @@ This research paper is an improvement over the *[Correlational Neural Networks](
 - Minimize the cross-reconstruction error at each intermediate step.
 - Maximize the correlation between the hidden representation of both views at each encoding step.
 
+# Results
+![CorrMCNN Architecture](https://github.com/AkshayViru/CorrMCNN/blob/main/images/results_1.JPG)
+![CorrMCNN Architecture](https://github.com/AkshayViru/CorrMCNN/blob/main/images/results_2.JPG)
 
